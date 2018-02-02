@@ -14,7 +14,7 @@
 		"fela-plugin-validator": "5.0.17",
 		"fela-preset-web": "8.0.3",
 		"fela-plugin-extend": "6.0.3",
-		"gatsby": "^1.9.177",
+		"gatsby": "1.9.175",
 		"gatsby-link": "^1.6.36",
 		"gatsby-plugin-fela": "^0.0.5",
 		"gatsby-plugin-react-helmet": "^2.0.4",
