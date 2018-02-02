@@ -24,7 +24,6 @@ const __logo = () => ({
 
 const __para = ({ size }) => ({
 	fontSize: size || 14,
-	fontColor: 'white',
 	fontWeight: 'bold',
 	padding: 10,
 })
@@ -34,10 +33,16 @@ const __img = () => ({
 	height: 'auto',
 })
 
+const __title = () => ({
+	fontFamily: `'Rammetto One', 'Georgia','Times New Roman','Times',serif;`,
+	fontSize: 32,
+})
+
 const WhiteBg = createComponent(__whiteBg)
 const Img = createComponent(__img, 'img', ['src'])
 const Logo = createComponent(__logo)
 const Paragraph = createComponent(__para)
+const Title = createComponent(__title)
 
 const IndexPage = () => (
 	<WhiteBg>
@@ -45,6 +50,7 @@ const IndexPage = () => (
 			<Aga5tyaLogo />
 		</Logo>
 		<Box center>
+			<Title>aga5tya</Title>
 			<Paragraph size={20}>
 				Senior Full Stack Engineer at BookMyShow
 			</Paragraph>

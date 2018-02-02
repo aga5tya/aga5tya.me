@@ -12,7 +12,7 @@ const TemplateWrapper = ({ children }) => (
 	<ThemeProvider theme={theme}>
 		<div>
 			<Helmet
-				title="Aga5tya aka Prithvi | Bio "
+				title="aga5tya aka Prithvi | Bio "
 				meta={[
 					{
 						name: 'description',
@@ -28,6 +28,10 @@ const TemplateWrapper = ({ children }) => (
 			>
 				<link
 					href="https://fonts.googleapis.com/css?family=Spectral"
+					rel="stylesheet"
+				/>
+				<link
+					href="https://fonts.googleapis.com/css?family=Rammetto+One"
 					rel="stylesheet"
 				/>
 			</Helmet>
